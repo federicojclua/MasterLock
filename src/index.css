@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    font-family: "PT Sans", sans-serif;
+    /* Fondo azul */
+    background-color: #1e5799; 
+    
+    /* Gradient */
+    background: linear-gradient(135deg,#021203, #ffff00, #021203); /* Azul - Amarillo - Verde */
+}

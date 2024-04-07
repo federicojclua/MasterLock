@@ -1,0 +1,38 @@
+.logo-brand {
+    padding: 0; /* Elimina cualquier relleno predeterminado */
+  }
+  
+  .logo-image {
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    border-radius: 5px; /* Agrega un border-radius al logo */
+    mask-image: url('src/assets/img/logo-nav-bar.png'); /* Utiliza la imagen del logo como máscara */
+    mask-size: cover; /* Ajusta el tamaño de la máscara */
+    background-color: black; /* Establece el fondo negro */
+  }
+  
+  
+  @media (max-width: 991px) {
+    .logo-brand {
+      margin-right: auto; /* Mueve el logo al margen izquierdo en dispositivos pequeños */
+    }
+  }
+  
+  .navbar-dark .navbar-nav .nav-link {
+    color: white; /* Cambia el color del texto a blanco */
+  }
+  
+  .bg-dark {
+    background-color: black !important; /* Fondo negro */
+  }
+  
+  /* Efecto scroll */
+  .navbar {
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar.navbar-dark.bg-dark {
+      background-color: rgba(0, 0, 0, 0.7) !important; /* Fondo negro con transparencia */
+    }
+  }
+  
