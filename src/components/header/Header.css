@@ -20,6 +20,7 @@
   .navbar-dark .navbar-nav .nav-link {
     color: white; /* Cambia el color del texto a blanco */
   }
+
   
   .bg-dark {
     background-color: black !important; /* Fondo negro */
@@ -35,4 +36,19 @@
       background-color: rgba(0, 0, 0, 0.7) !important; /* Fondo negro con transparencia */
     }
   }
-  
+  .nav-link {
+    color: white; /* Color del texto blanco */
+    margin-right: 10px; /* Espaciado entre los enlaces */
+    padding: 5px 10px; /* Relleno interno para los enlaces */
+    border-radius: 5px; /* Borde redondeado */
+    text-decoration: none; /* Quitar subrayado */
+  }
+
+  /* Estilo para los enlaces de navegación al pasar el mouse */
+.nav-link:hover {
+  background-color: white; /* Cambia el fondo al pasar el mouse */
+  color: black; /* Cambia el color del texto al pasar el mouse */
+}
+.nav-link.active {
+  font-weight: bold; /* Texto en negrita */
+}
