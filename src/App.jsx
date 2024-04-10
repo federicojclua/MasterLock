@@ -21,6 +21,7 @@ function App() {
           <Route path="/acerca-de-nosotros" element={<AcercaDeNosotros />} />
           <Route path="/about" element={<About />} />  {/* About route */}
         </Routes>
+        <About />
         <Footer />
       </div>
     </BrowserRouter>
