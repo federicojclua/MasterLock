@@ -6,5 +6,5 @@ body {
     background-color: #1e5799; 
     
     /* Gradient */
-    background: linear-gradient(135deg,#021203, #ffff00, #021203); /* Azul - Amarillo - Verde */
+    background: linear-gradient(135deg,#021203, #ffc100, #021203); /* Azul - Amarillo - Verde */
 }
