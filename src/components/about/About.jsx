@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div className="container py-5 ">
     <div className="row">
-      {/* Columna de la Card (Derecha) */}
+      {/* Columna de la Card 1 (Derecha) */}
       <div className="col-md-6 ">
         <div className="card mb-4 bg-dark">
         <h5 className="card-title text-white">SAN MIGUEL DE TUCUMAN</h5>
@@ -16,7 +16,17 @@ const About = () => {
             
           </div>
         </div>
+        {/* Columna de la Card 1 (Derecha) */}
+        <div className="col-md-12 ">
+        <div className="card mb-4 bg-dark">
+           <img src="src/assets/img/manotarjeta.jpeg" className="card-img-top" alt="Modelo 1" />
+          <div className="card-body">
+            
+          </div>
+        </div>
       </div>
+      </div>
+      
 
       {/* Columna de la Cerrajería (Izquierda) */}
       <div className="col-md-6">

@@ -1,0 +1,7 @@
+.logo-image {
+    width: 150px; /* Ajusta el ancho según sea necesario */
+    border-radius: 10px; /* Agrega un border-radius al logo */
+    mask-image: url('src/assets/img/logo-nav-bar.png'); /* Utiliza la imagen del logo como máscara */
+    mask-size: cover; /* Ajusta el tamaño de la máscara */
+    background-color: black; /* Establece el fondo negro */
+  }
