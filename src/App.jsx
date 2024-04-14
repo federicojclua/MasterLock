@@ -24,8 +24,8 @@ function App() {
           <Route path="/about" element={<About />} />  {/* About route */}
         </Routes>
         <About />
-        <Footer />
         <FixedButtons />
+        <Footer />
         
       </div>
     </BrowserRouter>

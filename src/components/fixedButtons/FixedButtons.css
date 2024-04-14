@@ -1,3 +1,4 @@
+
 .fixed-buttons {
   position: fixed;
   bottom: 20px;
@@ -5,11 +6,8 @@
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  height: 400px; /* Ejemplo de altura fija */
   z-index: 999; /* Asegura que esté por encima de otros elementos */
-}
-
-.fixed-button {
-  margin-bottom: 10px;
 }
 
 .fixed-button a {
@@ -19,18 +17,19 @@
   align-items: center;
 }
 
-.fixed-button.facebook {
-  background-color: #3b5998;
-  margin-bottom: auto; /* Mueve el botón de Facebook a la mitad de la altura */
+.fixed-button.facebook{
+background-color: #3b5998; /* Establece el color de fondo para Facebook e Instagram */
+margin-bottom: 15px; /* Mueve el botón de Facebook a la mitad de la altura */
 }
 
 .fixed-button.instagram {
-  background-color: #c13584;
-  margin-bottom: 10px; /* Mantén un espacio entre los botones */
+   /* Establece el color de fondo para Instagram    background-color: #c13584;*/
+  height: 250px; /* Ejemplo de altura fija para el botón c13584*/
 }
 
 .fixed-button.whatsapp {
-  background-color: #25d366;
+  background-color: #25d366; /* Establece el color de fondo para WhatsApp */
+  margin-top: auto; /* Mueve el botón de WhatsApp al fondo */
 }
 
 .tooltip {

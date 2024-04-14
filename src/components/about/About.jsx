@@ -1,6 +1,5 @@
-import React from 'react'
-import "./About.css"
-
+import React from 'react';
+import "./About.css";
 
 const About = () => {
   return (
@@ -11,7 +10,7 @@ const About = () => {
         <div className="card mb-4 bg-dark">
         <h5 className="card-title text-white">SAN MIGUEL DE TUCUMAN</h5>
             <p className="card-text text-white">CORRIENTES 385 </p>
-          <img src="src/assets/img/sucursal.jpeg" className="card-img-top" alt="Modelo 1" />
+          <img src="src/assets/img/sucursal.jpeg" className="card-img-top" alt="sucursal-Masterlock" />
           <div className="card-body">
             
           </div>
@@ -19,7 +18,7 @@ const About = () => {
         {/* Columna de la Card 1 (Derecha) */}
         <div className="col-md-12 ">
         <div className="card mb-4 bg-dark">
-           <img src="src/assets/img/manotarjeta.jpeg" className="card-img-top" alt="Modelo 1" />
+           <img src="src/assets/img/manotarjeta.jpeg" className="card-img-top" alt="tarjeta-presentacion" />
           <div className="card-body">
             
           </div>
@@ -41,7 +40,7 @@ const About = () => {
       </div>
     </div>
   </div>
-  )
+  );
 }
 
-export default About
+export default About;

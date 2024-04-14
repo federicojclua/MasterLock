@@ -4,7 +4,6 @@ import { faFacebook, faInstagram, faWhatsapp } from '@fortawesome/free-brands-sv
 import './FixedButtons.css';
 
 
-
 const FixedButtons = () => {
   return (
     <div className="fixed-buttons">
