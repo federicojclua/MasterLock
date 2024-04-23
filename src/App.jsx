@@ -6,7 +6,8 @@ import About from './components/about/About';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
 import FixedButtons from './components/fixedButtons/FixedButtons';
-
+import Marcas from './components/marcas/Marcas';
+import FormularioConsulta from './components/FormularioConsulta/FormularioConsulta';
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Servicios from './page/Servicios';
@@ -25,8 +26,10 @@ function App() {
         </Routes>
         <About />
         <FixedButtons />
+        <Marcas />
+        <FormularioConsulta/>
         <Footer />
-        
+       
       </div>
     </BrowserRouter>
   );

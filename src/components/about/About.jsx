@@ -19,6 +19,9 @@ const About = () => {
           </div>
         </div>
 
+
+        
+
         {/* Columna de la Sección Cerrajería (Izquierda) */}
         <div className="col-md-6 section-container">
           <section className="bg-dark text-white py-5">
@@ -28,10 +31,19 @@ const About = () => {
               <p className="lead">Nos encontramos convenientemente ubicados en el corazón de la zona céntrica de Corrientes, en Corrientes 385, lo que nos permite llegar rápidamente a cualquier destino dentro de la ciudad y sus alrededores. Tu seguridad y tranquilidad son nuestra prioridad número uno, y nos esforzamos por brindarte un servicio confiable y profesional en todo momento.</p>
               <p className="lead">No importa la hora del día o de la noche, puedes confiar en Cerrajería Masterlock para resolver tus problemas de seguridad de manera rápida y eficiente. ¡Contáctanos hoy mismo al teléfono <a href="tel:3814167412" className="text-white">3814167412</a> y deja que nos encarguemos de proteger lo que más valoras!</p>
             </div>
-          </section>
+            </section>
+
+            <div className="">
+            
+           
+            
+            </div>
         </div>
       </div>
+      
     </div>
+
+   
   );
 }
 

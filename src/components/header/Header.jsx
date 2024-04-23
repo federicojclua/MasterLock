@@ -1,15 +1,35 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './Header.css';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
 
-
 const Header = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
+  const [visible, setVisible] = useState(true);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.pageYOffset;
+      const visible = currentScrollPos === 0 || prevScrollPos > currentScrollPos;
+
+      setPrevScrollPos(currentScrollPos);
+      setVisible(visible);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [prevScrollPos]);
+
   return (
     <div>
-      <Navbar expand="lg" className="bg-dark" variant="dark">
+      <Navbar
+        expand="lg"
+        className={`bg-dark ${visible ? '' : 'navbar-scroll-up'}`}
+        variant="dark"
+      >
         <Container>
           <Navbar.Brand href="#home" className="logo-brand">
             <img src="src/assets/img/logo-nav-bar.png" alt="Logo" className="logo-image" />

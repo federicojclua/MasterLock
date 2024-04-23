@@ -53,3 +53,39 @@
   font-weight: bold; /* Texto en negrita */
 }
 
+
+
+
+
+
+/* Ajustes de estilos CSS para el logotipo */
+.logo-brand {
+  margin-right: 15px; /* Añade un margen derecho para separar el logotipo del borde */
+}
+
+/* Ajustes de estilos CSS para la barra de navegación */
+.navbar {
+  position: fixed; /* Asegura que la barra de navegación permanezca fija */
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Asegura que la barra de navegación esté por encima de otros elementos */
+  transition: top 0.3s ease-in-out; /* Aplica una transición suave al cambiar la posición */
+}
+
+/* Ajustes de estilos CSS para ocultar la barra de navegación al hacer scroll hacia abajo */
+.navbar-scroll-up {
+  top: -80px; /* Cambia la posición de la barra de navegación al ocultarla */
+}
+/* Ajustes de estilos CSS para la barra de navegación */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: top 0.3s ease-in-out; /* Aplica una transición suave al cambiar la posición */
+}
+
+/* Ajustes de estilos CSS para ocultar la barra de navegación al hacer scroll hacia abajo */
+.navbar-scroll-up {
+  top: -80px; /* Cambia la posición de la barra de navegación al ocultarla */
+}
