@@ -1,0 +1,30 @@
+.whatsapp-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000; /* Asegúrate de que tenga un índice z alto para que esté por encima de otros elementos */
+}
+
+/* Estilos para el botón */
+.whatsapp-button-container .btn {
+  border-radius: 50%; /* Botón redondeado */
+  padding: 10px; /* Ajusta el relleno según sea necesario */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para un aspecto flotante */
+}
+
+/* Estilos para el logo de WhatsApp */
+.whatsapp-button-container .btn img {
+  width: 40px; /* Ajusta el tamaño del logo según sea necesario */
+  height: auto;
+  margin-right: 5px; /* Espacio entre el logo y el texto */
+}
+
+/* Estilos para el texto */
+.whatsapp-button-container .btn span {
+  font-size: 14px; /* Ajusta el tamaño del texto según sea necesario */
+}
+.whatsapp-button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}

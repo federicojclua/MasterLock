@@ -1,0 +1,13 @@
+.redes-sociales {
+    position: fixed;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    z-index: 1000; /* Asegúrate de que esté por encima del contenido principal */
+  }
+  
+  .redes-sociales a {
+    display: block;
+    margin-bottom: 10px;
+  }
+  

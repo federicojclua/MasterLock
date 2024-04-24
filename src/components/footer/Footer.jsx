@@ -19,7 +19,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/cerrajeria.master.lock/" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
               <FontAwesomeIcon icon={faInstagram} size="2x" />
             </a>
-            <a href="https://w.app/XxHd2G" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
+            <a href="https://wa.link/tn5bc4" target="_blank" rel="noopener noreferrer" className="text-white mx-2">
               <FontAwesomeIcon icon={faWhatsapp} size="2x" />
             </a>
           </div>

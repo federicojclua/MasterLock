@@ -5,9 +5,11 @@ import Header from './components/header/Header';
 import About from './components/about/About';
 import Home from './components/home/Home';
 import Footer from './components/footer/Footer';
-import FixedButtons from './components/fixedButtons/FixedButtons';
+import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton';
 import Marcas from './components/marcas/Marcas';
 import FormularioConsulta from './components/FormularioConsulta/FormularioConsulta';
+import RedesSociales from './components/RedesSociales/RedesSociales';
+
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Servicios from './page/Servicios';
@@ -25,9 +27,11 @@ function App() {
           <Route path="/about" element={<About />} />  {/* About route */}
         </Routes>
         <About />
-        <FixedButtons />
+        <WhatsAppButton />
         <Marcas />
+        <RedesSociales/>
         <FormularioConsulta/>
+       
         <Footer />
        
       </div>
